@@ -14,7 +14,7 @@
         "outputPath": "/Users/irsupera/Documents/WEB-1001/github/BookTracking/BookTrackingApp/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/irsupera/.config/NuGet/NuGet.Config"
+          "/Users/irsupera/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
