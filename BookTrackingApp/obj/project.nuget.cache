@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kCfhdmyENX/t3NpWdy94dUmW4Xnkq9Cgs46lygNOt7QnBybkiSYCD1PhX5Q6WlR9KCBJD9/wvBpCg7Wyhv1fAA==",
+  "dgSpecHash": "8g62gLcJV/CMBxfnkQRmfEUwjQ/v7pMN3JEf66oRrUH5WyPw4Tv220mddDGpA4W8zlv3pjTUurhf6HPK9NECXA==",
   "success": true,
-  "projectFilePath": "/Users/irsupera/Documents/WEB-1001/github/BookTracking/BookTrackingApp/BookTrackingApp.csproj",
+  "projectFilePath": "/Users/irsupera/Documents/WEB-1001/github/WEB1001-BookTracking/BookTrackingApp/BookTrackingApp.csproj",
   "expectedPackageFiles": [
     "/Users/irsupera/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
     "/Users/irsupera/.nuget/packages/microsoft.aspnetcore.html.abstractions/2.2.0/microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",

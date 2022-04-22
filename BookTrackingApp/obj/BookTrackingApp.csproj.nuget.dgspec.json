@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/irsupera/Documents/WEB-1001/github/BookTracking/BookTrackingApp/BookTrackingApp.csproj": {}
+    "/Users/irsupera/Documents/WEB-1001/github/WEB1001-BookTracking/BookTrackingApp/BookTrackingApp.csproj": {}
   },
   "projects": {
-    "/Users/irsupera/Documents/WEB-1001/github/BookTracking/BookTrackingApp/BookTrackingApp.csproj": {
+    "/Users/irsupera/Documents/WEB-1001/github/WEB1001-BookTracking/BookTrackingApp/BookTrackingApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/irsupera/Documents/WEB-1001/github/BookTracking/BookTrackingApp/BookTrackingApp.csproj",
+        "projectUniqueName": "/Users/irsupera/Documents/WEB-1001/github/WEB1001-BookTracking/BookTrackingApp/BookTrackingApp.csproj",
         "projectName": "BookTrackingApp",
-        "projectPath": "/Users/irsupera/Documents/WEB-1001/github/BookTracking/BookTrackingApp/BookTrackingApp.csproj",
+        "projectPath": "/Users/irsupera/Documents/WEB-1001/github/WEB1001-BookTracking/BookTrackingApp/BookTrackingApp.csproj",
         "packagesPath": "/Users/irsupera/.nuget/packages/",
-        "outputPath": "/Users/irsupera/Documents/WEB-1001/github/BookTracking/BookTrackingApp/obj/",
+        "outputPath": "/Users/irsupera/Documents/WEB-1001/github/WEB1001-BookTracking/BookTrackingApp/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/irsupera/.config/NuGet/NuGet.Config"

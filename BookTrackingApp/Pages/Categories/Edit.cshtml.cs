@@ -35,6 +35,7 @@ namespace BookTrackingApp.Pages.Categories
             {
                 return NotFound();
             }
+            ViewData["TypeID"] = new SelectList(_context.Set<CategoryType>(), "Type", "Type");
             return Page();
         }
 

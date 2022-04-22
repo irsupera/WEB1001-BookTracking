@@ -1,0 +1,37 @@
+﻿<Properties StartupConfiguration="{F7BDF348-422B-4ACA-8483-8F36AC837386}|Default">
+  <MonoDevelop.Ide.ItemProperties.BookTrackingApp PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="BookTrackingApp/Pages/Books/Create.cshtml">
+    <Files>
+      <File FileName="BookTrackingApp/Data/Context_Book.cs" Line="1" Column="1" />
+      <File FileName="BookTrackingApp/Data/Context_Category.cs" />
+      <File FileName="BookTrackingApp/Models/Book.cs" />
+      <File FileName="BookTrackingApp/Models/Category.cs" />
+      <File FileName="BookTrackingApp/Models/CategoryType.cs" />
+      <File FileName="BookTrackingApp/Pages/Books/Create.cshtml" Line="28" Column="51" />
+      <File FileName="BookTrackingApp/Pages/Books/Create.cshtml.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="BookTracking" expanded="True">
+            <Node name="BookTrackingApp" expanded="True">
+              <Node name="Data" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Pages" expanded="True">
+                <Node name="Books" expanded="True">
+                  <Node name="Create.cshtml" expanded="True" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

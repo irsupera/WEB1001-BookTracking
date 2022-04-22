@@ -20,7 +20,7 @@ namespace BookTrackingApp.Pages.Books
 
         public IActionResult OnGet()
         {
-        ViewData["CategoryID"] = new SelectList(_context.Set<Category>(), "NameToken", "NameToken");
+            ViewData["CategoryID"] = new SelectList(_context.Set<Category>(), "NameToken", "NameToken");
             return Page();
         }
 

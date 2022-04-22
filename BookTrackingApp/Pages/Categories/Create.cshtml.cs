@@ -20,6 +20,7 @@ namespace BookTrackingApp.Pages.Categories
 
         public IActionResult OnGet()
         {
+            ViewData["TypeID"] = new SelectList(_context.Set<CategoryType>(), "Type", "Type");
             return Page();
         }
 

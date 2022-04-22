@@ -36,7 +36,7 @@ namespace BookTrackingApp.Pages.Books
             {
                 return NotFound();
             }
-           ViewData["CategoryID"] = new SelectList(_context.Set<Category>(), "NameToken", "NameToken");
+            ViewData["CategoryID"] = new SelectList(_context.Set<Category>(), "NameToken", "NameToken");
             return Page();
         }
 
