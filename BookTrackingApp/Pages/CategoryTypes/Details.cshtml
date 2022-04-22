@@ -19,7 +19,10 @@
         </dd>
     </dl>
 </div>
+
+<div class="form-group">
+    <a asp-page="./Edit" asp-route-id="@Model.CategoryType.Type" class="btn btn-primary">Edit</a>
+</div>
 <div>
-    <a asp-page="./Edit" asp-route-id="@Model.CategoryType.Type">Edit</a> |
     <a asp-page="./Index">Back to List</a>
 </div>

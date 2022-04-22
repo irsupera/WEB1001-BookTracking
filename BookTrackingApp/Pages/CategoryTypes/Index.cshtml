@@ -8,11 +8,11 @@
 <h1>Category Types</h1>
 
 <p>
-    <a asp-page="Create">Create New</a>
+    <a asp-page="Create" class="btn btn-new">Create New</a>
 </p>
 <table class="table">
     <thead>
-        <tr>
+        <tr class="th-gray">
             <th>
                 @Html.DisplayNameFor(model => model.CategoryType[0].Name)
             </th>
@@ -23,11 +23,12 @@
 @foreach (var item in Model.CategoryType) {
         <tr>
             <td>
-                @Html.DisplayFor(modelItem => item.Name)
+                <a asp-page="./Details" asp-route-id="@item.Type">
+                    @Html.DisplayFor(modelItem => item.Name)
+                </a>
             </td>
             <td>
                 <a asp-page="./Edit" asp-route-id="@item.Type">Edit</a> |
-                <a asp-page="./Details" asp-route-id="@item.Type">Details</a> |
                 <a asp-page="./Delete" asp-route-id="@item.Type">Delete</a>
             </td>
         </tr>

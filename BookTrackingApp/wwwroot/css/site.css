@@ -18,10 +18,21 @@ a {
   border-color: #1861ac;
 }
 
+.btn-new {
+  color: #fff;
+  background-color: #1bc26f;
+  border-color: #159555;
+}
+
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
   color: #fff;
   background-color: #1b6ec2;
   border-color: #1861ac;
+}
+
+.th-gray {
+  background-color: #E3E3E3;
+  font-style: italic;
 }
 
 /* Sticky footer styles

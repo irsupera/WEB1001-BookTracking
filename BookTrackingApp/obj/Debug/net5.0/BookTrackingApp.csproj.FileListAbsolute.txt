@@ -179,3 +179,7 @@
 /Users/irsupera/Documents/WEB-1001/github/BookTracking/BookTrackingApp/obj/Debug/net5.0/Razor/Pages/CategoryTypes/Details.cshtml.g.cs
 /Users/irsupera/Documents/WEB-1001/github/BookTracking/BookTrackingApp/obj/Debug/net5.0/Razor/Pages/CategoryTypes/Edit.cshtml.g.cs
 /Users/irsupera/Documents/WEB-1001/github/BookTracking/BookTrackingApp/obj/Debug/net5.0/Razor/Pages/CategoryTypes/Index.cshtml.g.cs
+/Users/irsupera/Documents/WEB-1001/github/BookTracking/BookTrackingApp/bin/Debug/net5.0/Schema.NET.dll
+/Users/irsupera/Documents/WEB-1001/github/BookTracking/BookTrackingApp/bin/Debug/net5.0/System.Runtime.CompilerServices.Unsafe.dll
+/Users/irsupera/Documents/WEB-1001/github/BookTracking/BookTrackingApp/bin/Debug/net5.0/System.Text.Encodings.Web.dll
+/Users/irsupera/Documents/WEB-1001/github/BookTracking/BookTrackingApp/bin/Debug/net5.0/System.Text.Json.dll

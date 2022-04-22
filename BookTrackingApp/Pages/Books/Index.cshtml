@@ -8,11 +8,11 @@
 <h1>Books</h1>
 
 <p>
-    <a asp-page="Create">Create New</a>
+    <a asp-page="Create" class="btn btn-new">Create New</a>
 </p>
 <table class="table">
     <thead>
-        <tr>
+        <tr class="th-gray">
             <th>
                 @Html.DisplayNameFor(model => model.Book[0].Title)
             </th>
@@ -29,7 +29,9 @@
 @foreach (var item in Model.Book) {
         <tr>
             <td>
-                @Html.DisplayFor(modelItem => item.Title)
+                <a asp-page="./Details" asp-route-id="@item.ISBN">
+                    @Html.DisplayFor(modelItem => item.Title)
+                </a>
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Author)
@@ -39,10 +41,14 @@
             </td>
             <td>
                 <a asp-page="./Edit" asp-route-id="@item.ISBN">Edit</a> |
-                <a asp-page="./Details" asp-route-id="@item.ISBN">Details</a> |
                 <a asp-page="./Delete" asp-route-id="@item.ISBN">Delete</a>
             </td>
         </tr>
 }
     </tbody>
 </table>
+
+@section JSONLD
+{
+    @Html.Raw(Model.JSONLD.ToHtmlEscapedString());
+}
